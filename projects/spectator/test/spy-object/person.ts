@@ -9,4 +9,5 @@ export class Person {
   public get age(): number {
     return 2019 - this.birthYear;
   }
+  public set age(_age: number) {}
 }
